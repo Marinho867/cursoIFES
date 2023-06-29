@@ -1,3 +1,6 @@
+/* Faça um algoritmo para mostrar os 20 primeiros números quadrados.
+Também informe no final, a soma dos quadrados pares e a soma dos quadrados ímpares. */
+
 var numPar = 0;
 var numImpar = 0;
 

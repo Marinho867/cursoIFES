@@ -1,3 +1,5 @@
+// Essa API usa JSON WEB TOKEN (JWT) para autenticação de usuario.
+
 //INSTALAÇÃO BIBLIOTECAS/MÓDULOS
 const express = require("express");
 const app = express();

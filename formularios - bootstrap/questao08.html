@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Questão 08</title>
+</head>
+
+<body>
+    <div class="container my-3">
+        <p><a href="index.html">Voltar ao Índice</a></p>
+        <h1 class="display-2">Questão 08</h1>
+        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário da questão 7
+            para que todos os seus campos fiquem com títulos flutuantes.</p>
+        <hr>
+    </div>
+    <!-- FAZER AQUI -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8  col-md-8 col-xl-6">
+                <h1 class="display-4">Cadastro de Cliente</h1>
+                <hr>
+                <form>
+                    <div class="row mb-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="email" placeholder=" ">
+                            <label for="email" class="form-label">Usuário(E-mail)</label>
+                        </div>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-lg-3 col-xl-3 form-floating">
+                            <input type="text" class="form-control" id="CPF" placeholder=" ">
+                            <label for="CPF" class="form-label">CPF </label>
+                        </div>
+                        <div class="col-lg-4 col-xl-4 form-floating">
+                            <input type="date" class="form-control" placeholder=" " id="nascimento">
+                            <label for="nascimento" class="form-label">Data de Nascimento</label>
+                        </div>
+                        <div class="col-lg-5 col-xl-5 form-floating">
+                            <select class="form-select">
+                                <option value="">Selecione uma Opção</option>
+                                <option value="">Homem</option>
+                                <option value="">Mulher</option>
+                                <option value="">Transexual</option>
+                                <option value="">Bisexual</option>
+                                <option value="">Não-Binário</option>
+                                <option value="">Outros</option>
+                            </select>
+                            <label class="form-label">Gênero</label>
+                        </div>
+                    </div>
+                    <div class="mb-3 form-floating">
+                        <textarea name="" id="endereço" class="form-control" placeholder=" "></textarea>
+                        <label for="Endereço" class="form-label">
+                            Endereço Completo
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-3">salvar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
